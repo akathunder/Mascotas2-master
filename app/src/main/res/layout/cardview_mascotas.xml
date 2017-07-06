@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+
+    android:id="@+id/cvMascotas"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/activity_vertical_margin"
+    card_view:cardCornerRadius="@dimen/corner_radius_cardview"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin"
+        >
+
+        <ImageView
+            android:id="@+id/imgFotoContacto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/monkeyhead"
+            android:background="@color/fondo2"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="fill_horizontal"
+            >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                    android:id="@+id/tvNombreCV"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/pnombre"
+                    android:textSize="@dimen/nombre_cardview"
+                    android:textStyle="bold"
+                    android:layout_marginRight="160dp"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/fecha"
+                android:text="@string/fecha"
+                android:layout_marginTop="5dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/id_fotos"
+                android:text="11111"
+                android:textColor="@color/colorBlanco"
+                />
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="38dp"
+            android:layout_height="38dp"
+            android:id="@+id/btnHuesoColor"
+            android:background="@drawable/dog_bone_48_color"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_alignParentRight="true" />
+            />
+
+
+        <TextView
+                android:id="@+id/votos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/numeroestrellas"
+                android:textSize="@dimen/nombre_cardview"
+                android:textStyle="bold"
+            android:layout_toStartOf="@+id/btnHuesoColor"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_toLeftOf="@+id/btnHuesoColor" />
+
+
+
+    </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+</android.support.v7.widget.CardView>

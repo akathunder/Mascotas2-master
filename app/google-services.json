@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "530848951180",
+    "firebase_url": "https://petagram-6126b.firebaseio.com",
+    "project_id": "petagram-6126b",
+    "storage_bucket": "petagram-6126b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530848951180:android:fc1a2b20ad56c20c",
+        "android_client_info": {
+          "package_name": "com.eisusquiza.mascotas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "530848951180-7et5pvmp8t89hs4fg3fmk7hqa9th4qse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcI7iqdxWkndLjIAcyBZropy-kWjl7NlM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530848951180-7et5pvmp8t89hs4fg3fmk7hqa9th4qse.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

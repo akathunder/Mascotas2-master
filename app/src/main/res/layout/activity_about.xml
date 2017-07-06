@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eisusquiza.mascotas.ActivityAbout"
+    android:orientation="vertical"
+    >
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"
+        ></include>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBio"
+        android:text="Biografía"
+        android:layout_below="@id/miActionBar"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvBio_Completa"
+        android:text="@string/bio_completa"
+        android:layout_below="@id/tvBio"
+        android:layout_marginTop="30dp"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_contacto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.eisusquiza.mascotas.ActivityContacto"
+    android:orientation="vertical"
+    >
+
+    <include android:id="@+id/miActionBar"
+        layout="@layout/actionbar"
+        ></include>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        >
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edition_name"
+            android:inputType="textPersonName"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        >
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edition_email"
+            android:layout_below="@id/edtNombre"
+            android:inputType="textEmailAddress"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        >
+        <EditText
+            android:id="@+id/edtMensaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/edition_mensaje"
+            android:layout_below="@id/edtEmail"
+            android:inputType="textShortMessage"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnBotonSig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/envio_mensaje"
+        android:theme="@style/MiBotonRaised"
+        android:layout_below="@id/edtEmail"
+        android:layout_marginTop="100dp"
+
+        />
+
+
+</LinearLayout>

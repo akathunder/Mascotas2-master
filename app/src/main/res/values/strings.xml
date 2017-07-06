@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="pnombre">nombre</string>
+    <string name="numeroestrellas">0</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acercade">Acerca de</string>
+    <string name="edition_name">Nombre Completo</string>
+    <string name="edition_email">Email</string>
+    <string name="edition_mensaje">Mensaje</string>
+    <string name="envio_mensaje">Enviar Comentario</string>
+    <string name="bio_completa">Principiante en el desarrollo de aplicaciones en Android</string>
+    <string name="nombre_mascota_Fragment">Rocky</string>
+    <string name="config_cuenta">Configurar Cuenta</string>
+    <string name="permitir_notificaciones">Permitir notificaciones</string>
+    <string name="plikes">0</string>
+    <string name="diferentes_usuarios">Escribe tu usuario</string>
+    <string name="guardar_cuenta">Guardar cuenta</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fecha">18/02/17 04:50:41</string>
+    <string name="txtusuario">Ingresa tu usuario</string>
+    <string name="UsuariosSandbox">Usuarios que permitieron Sandbox: turtus111 y perritopochito</string>
+    <string name="title_activity_enviar_respuesta_afirebase2">EnviarRespuestaAFirebase2</string>
+    <string name="texto_accion_toque">Devuelve el toque</string>
+
+
+</resources>

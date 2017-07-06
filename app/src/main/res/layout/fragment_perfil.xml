@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.eisusquiza.mascotas.fragments.PerfilFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/rocky_png"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_radius="10"
+        app:civ_shadow_color="#8BC34A"
+        android:id="@+id/imgPFDog"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgPFDog"
+        android:text="@string/nombre_mascota_Fragment"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/tvnombreMascota"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvRocky"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_below="@id/tvnombreMascota"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+
+
+
+</RelativeLayout>
